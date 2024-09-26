@@ -1,0 +1,34 @@
+.floating-button {
+    position: absolute; /* Position it absolutely */
+    left: 50%; /* Center horizontally */
+    padding: 10px 20px; /* Padding for the button */
+    font-size: 16px; /* Font size */
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    color: rgb(216, 216, 216); /* Text color */
+    cursor: pointer; /* Cursor change on hover */
+    z-index: 10; /* Ensure it's above the canvas */
+    transform: translate(-50%, -50%); /* Move back by half of its size */
+}
+
+#startButton {
+    top: 60%; /* Adjust this for vertical positioning */
+}
+#optionsButton {
+    top: 65%; /* Adjust this for vertical positioning */
+}
+#creditsButton {
+    top: 70%; /* Adjust this for vertical positioning */
+}
+
+#gameTitle {
+    position: absolute;
+    top: 10%; /* Position it at the top */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 72px;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    z-index: 9;
+}
